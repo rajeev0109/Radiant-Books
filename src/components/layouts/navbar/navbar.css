@@ -1,0 +1,41 @@
+.navbar-container {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  padding: 1rem 1rem;
+}
+.background-dark {
+  background-color: #333;
+}
+.background-transparent {
+  background-color: transparent;
+}
+.logo {
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+  font-family: Raleway;
+  font-weight: 700;
+}
+.nav-links,
+.nav-links-dark {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 10px;
+  transition: 0.2s ease-in;
+}
+.nav-links-dark {
+  color: #333;
+}
+.nav-links:hover {
+  color: var(--primary-color);
+}
+.nav-links-dark:hover {
+  color: var(--primary-color);
+}
+
+.relative {
+  position: relative !important;
+}
